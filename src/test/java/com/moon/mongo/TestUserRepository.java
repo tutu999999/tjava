@@ -1,23 +1,16 @@
 package com.moon.mongo;
 
-import com.moon.mongo.repository.UserRepositoryImpl;
-import com.moon.mongo.repository.facade.UserRepository;
+import com.moon.mongo.repository.persistence.UserRepositoryImpl;
 import com.moon.mongo.repository.po.UserPO;
 import org.apache.commons.lang3.RandomUtils;
 import org.bson.types.Decimal128;
-import org.junit.Before;
 import org.junit.Test;
-import org.junit.platform.commons.util.StringUtils;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.domain.PageImpl;
 import org.springframework.data.mongodb.core.MongoTemplate;
-import org.springframework.data.mongodb.core.query.Criteria;
-import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.test.context.junit4.SpringRunner;
-
-import java.util.Random;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest

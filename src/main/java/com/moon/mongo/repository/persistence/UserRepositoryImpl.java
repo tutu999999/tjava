@@ -1,4 +1,4 @@
-package com.moon.mongo.repository;
+package com.moon.mongo.repository.persistence;
 
 import com.moon.infrastructure.core.util.PageInfo;
 import com.moon.mongo.repository.facade.UserRepository;
