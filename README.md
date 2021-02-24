@@ -1,4 +1,4 @@
 
-> `tjava`：自己的 Java 核心知识库。
+> `tjava`：自己的 Java 知识库。
 
 <br/>
